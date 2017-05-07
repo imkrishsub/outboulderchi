@@ -26,6 +26,7 @@
 <link type="text/css" rel="stylesheet" href="orig_inc/css__NsZ3zf5w54eIS1qSeCIyhG09K5VjGqWxCU-MjaOSwE.css" media="all">
 <link type="text/css" rel="stylesheet" href="orig_inc/css_bKh2dDttCkAk_ttLZoi2tu8HeH0Gjua1cD_55aPjAlg.css" media="all">
 <link type="text/css" rel="stylesheet" href="metro.css" media="all">
+<link type="text/css" rel="stylesheet" href="page-view.css" media="all">
 <!-- HTML5 element support for IE6-8 -->
   <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -228,7 +229,7 @@
                     <div class="carousel slide" data-ride="carousel">
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner">
-                            <div class="item active text-center">
+                            <div class="item active text-center" id="event1">
                                 <div>
                                     <span class="fa fa-lock bigicon"></span>
                                 </div>
@@ -239,7 +240,7 @@
                                     
                                 </div>
                             </div>
-                            <div class="item text-center">
+                            <div class="item text-center" id="event2">
                                 <div>
                                     <span class="fa fa-unlock bigicon"></span>
                                 </div>
@@ -249,7 +250,7 @@
                                 <div class="icontext">
                                 </div>
                             </div>
-                            <div class="item text-center">
+                            <div class="item text-center" id="event3">
                                 <div>
                                     <span class="fa fa-unlock bigicon"></span>
                                 </div>
@@ -258,13 +259,44 @@
                                 </div>
                                 <div class="icontext">
                                 </div>
-                            </div>
+                            </div>                            
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <div class="col-md-9">
+      <!-- <h2>Welcome to IGHALO!<sup>™</sup></h2>-->
+        <ul class="nav nav-tabs" id="myTab">
+          <div class="liner"></div>
+          <li class="active">
+            <a href="#event1" aria-controls="home" role="tab" data-toggle="tab" title="User Experience">
+              <span class="round-tabs one">
+                <i class="icon icon-profile-male"></i>
+              </span>
+            </a></li>
+            <li><a href="#event2" aria-controls="profile" role="tab" data-toggle="tab" title="Sketch">
+             <span class="round-tabs two">
+               <i class="icon icon-pencil"></i>
+             </span>
+            </a>
+          </li>
+         <li><a href="#event3" aria-controls="prototyping" role="tab" data-toggle="tab" title="Prototyping">
+           <span class="round-tabs three">
+            <i class="icon icon-layers"></i>
+          </span> </a>
+        </li>
+        </ul>      
+    </div>
+    <!-- How it Works section -->
+    <section  class="section how-it-works" id="how-it-works">
+      <div class="container">
+        <div class="row">
+          
+</section>
+    <!-- /How it work -->
 
     <script type="text/javascript">
         jQuery(function ($) {
